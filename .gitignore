@@ -1,0 +1,38 @@
+# ==============================================================================
+# ARQUIVOS DE IDE E PREFERÊNCIAS DE USUÁRIO
+# ==============================================================================
+# Arquivos específicos da sua máquina local (Visual Studio, JetBrains, etc.)
+# que não devem ser compartilhados com a equipe.
+*.user
+*.suo
+.vs/
+.idea/
+
+# ==============================================================================
+# SEGURANÇA E CONFIGURAÇÕES SENSÍVEIS
+# ==============================================================================
+# IMPORTANTE: Configurações de ambiente de desenvolvimento.
+# NUNCA envie senhas de banco de dados, Connection Strings ou chaves JWT.
+appsettings.Development.json
+
+# ==============================================================================
+# ARQUIVOS DE COMPILAÇÃO (BUILD)
+# ==============================================================================
+# O GitHub deve conter apenas o código-fonte.
+# Binários e objetos gerados pelo compilador são ignorados.
+[Bb]in/
+[Oo]bj/
+
+# ==============================================================================
+# LOGS E ARQUIVOS TEMPORÁRIOS
+# ==============================================================================
+*.log
+*.tmp
+*.temp
+
+# ==============================================================================
+# ARQUIVOS DE SISTEMA OPERACIONAL
+# ==============================================================================
+# Arquivos de metadados do Mac e Windows
+.DS_Store
+Thumbs.db

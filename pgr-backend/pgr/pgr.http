@@ -1,0 +1,6 @@
+@pgr_HostAddress = http://localhost:5048
+
+GET {{pgr_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
