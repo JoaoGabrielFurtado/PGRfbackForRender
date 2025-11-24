@@ -45,9 +45,12 @@ builder.Services.AddCors(options =>
         builder =>
         {
             builder
-                .AllowAnyOrigin() 
-                .AllowAnyHeader()
-                .AllowAnyMethod();
+                 .WithOrigins(
+                       "https://pg-rfront-for-vercel.vercel.app", 
+                       "http://127.0.0.1:5500" 
+                  )
+                 .AllowAnyHeader()
+                 .AllowAnyMethod();
         });
 });
 
