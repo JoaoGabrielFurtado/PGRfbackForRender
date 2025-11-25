@@ -110,7 +110,7 @@ using (var scope = app.Services.CreateScope())
     try
     {
         var context = services.GetRequiredService<PgrDbCon>();
-        context.Database.Migrate();
+        context.Database.EnsureCreated();
     }
     catch (Exception ex)
     {
